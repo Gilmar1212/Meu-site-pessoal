@@ -27,7 +27,7 @@ body{
 }
 .sobre-mim{
 	background-image:url('../imagens/imagem-1.jpg');
-	height:800px;
+	height:1200px;
 	background-repeat:no-repeat;
 	background-size:cover ;
 	background-position:80% 20%;
@@ -50,14 +50,14 @@ footer{
 	background-image:linear-gradient(to bottom ,black, gray);
 	height:400px ;
 	width:100%;
-	margin-top:800px ;
+	margin-top:600px ;
 }
 #videos{
 	float:right;
 	padding-left:500px;
 	display:inline;
 	height:600px;
-	width:100%;
+	width:60%;
 }
 #video1{
 	max-width:30%;
@@ -96,7 +96,7 @@ ul li{
 	transition:0.5s;
 }
 ul{
-	margin-left:300px;
+	margin-left:42%;
 }
 a{
 text-decoration:none ;
@@ -118,9 +118,14 @@ h3{
 	text-align:center;
 	display:block;
 }
-.links{
+.links img{
 	width:35px;
-	padding-left:5px;
-	position:relative;
-	left:43%;
+	flex:1;
+
+}
+.links{
+	width:15%;
+	align-items:center;
+	margin-right:42%;
+	display:flex;
 }
