@@ -1,0 +1,127 @@
+*{
+	margin:auto;
+	padding:auto;	
+}
+body{
+	font-family:sans-serif;
+}
+
+.sobre-mim h4{
+	color:white;
+	text-align:center;
+	margin-left:10px;
+}
+.sobre-mim h1{
+	text-align:center;
+	padding:25px;
+	color:white;
+}
+.metas-objetivos h4{
+	text-align:justify;
+	color:white;
+}
+.metas-objetivos h1{
+	text-align:center;
+	padding:60px;
+	color:white;
+}
+.sobre-mim{
+	background-image:url('../imagens/imagem-1.jpg');
+	min-height:1200px;
+	max-height:1600px ;
+	background-repeat:no-repeat;
+	background-size:cover ;
+	background-position:80% 20%;
+	background-attachment:fixed ;
+}
+.metas-objetivos{
+	background-image:url('../imagens/imagem-2.jpg');
+	min-height:1100px;
+	max-height:1600px ;
+	background-repeat:no-repeat;
+	background-size:cover ;
+	position:relative;
+	background-attachment:fixed ;
+}
+.divisor{
+	background-image:linear-gradient(to bottom ,black, gray);
+	height:200px ;
+	width:100%;
+}
+footer{
+	background-image:linear-gradient(to bottom ,black, gray);
+	height:400px ;
+	width:100%;
+	margin-top:100px ;
+}
+#videos{
+	display:inline;
+	height:1200px;
+	width:0%;
+	clear:both;
+}
+#video1{
+	max-width:30%;
+	z-index:0 ;
+	box-shadow:2px 2px 2px black;
+	margin-right:-50px ;
+}
+#video2{
+	max-width:33%;
+	z-index: 2;
+	box-shadow:2px 2px 2px black;
+	margin-right:-50px;
+}
+
+#video3{
+	position:relative; ;
+	max-width:35%;
+	z-index: 3;
+	box-shadow:2px 2px 2px black;
+}
+#logo{
+	position:relative;
+	width:20%;
+	right:65px;
+}
+ul li{
+	display:inline-block ;
+	color:white;
+	padding :20px 35px 20px 25px;
+	margin-top:80px;
+	font-weight:bold ;
+	transition:0.5s;
+}
+ul{
+	margin-left:0px;
+}
+a{
+text-decoration:none ;
+}
+li:hover{
+	background-color:lightblue;
+	border-radius: 25px;
+	transition:0.5s;
+}
+#whatsapp{
+	width:25px;
+	height:25px;
+	margin-top:35px;
+	margin-right:5px;
+}
+h3{
+	position: relative;
+	bottom:40px;
+	text-align:center;
+	display:block;
+}
+.links img{
+	width:35px;
+	flex:1;
+}
+.links{
+	width:35%;
+	position:relative;
+	left:0%;
+	display:flex;
+}
